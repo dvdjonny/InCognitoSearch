@@ -1,0 +1,14 @@
+{
+    "name": "Incognito Search",
+    "version": "1.0",
+    "description": "Search selected text in Google incognito",
+	"author": "dvdjonny",
+    "manifest_version": 2,
+	"permissions": ["contextMenus", "tabs"],
+	"icons": {
+          "128": "icon-bitty.png"
+        },
+	"background":{
+		"scripts": ["main.js"]
+	}
+  }
